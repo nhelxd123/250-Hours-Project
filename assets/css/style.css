@@ -63,10 +63,11 @@ span{
 }
 
 @keyframes fof{
-    from{opacity: 0;}
-    to{opacity: 1;}
-      }
+   from{opacity: 0;}
+   to{opacity: 1;}
+  }
+
 @keyframes cloud{
- from{width: 0; }
- to{ width: 299px; }
+  from{width: 0;}
+  to{width: 299px;}
 }
