@@ -21,18 +21,19 @@ img{
 img.tao{
   top: 255px;
   left: 74px;
-  
+  z-index: 1;
 }
 
 img.cloud{
-  top: 60px;
+  bottom: 230px;
   left: 108px;
-  z-index: 1;
+  animation: cloud 1s;
 }
 h1{
   position: relative;
-  padding: 50px 0px 0px 184px;
+  padding: 40px 0px 0px 184px;
   z-index: 2;
+  
 }
 .fof{
   font-size: 80px;
@@ -56,4 +57,17 @@ h1{
 }
 span{
   display: block;
+  animation: fof 1s infinite;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+@keyframes fof{
+   from{opacity: 0;}
+   to{opacity: 1;}
+  }
+
+@keyframes cloud{
+  from{width: 0;}
+  to{width: 299px;}
 }
