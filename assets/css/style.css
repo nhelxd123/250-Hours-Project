@@ -61,17 +61,6 @@ span{
   animation-delay: 1s;
   opacity: 0;
 }
-
-@keyframes fof{
-   from{opacity: 0;}
-   to{opacity: 1;}
-  }
-
-@keyframes cloud{
-  from{width: 0;}
-  to{width: 299px;}
-}
-
 a{
   margin-top: 300px;
   display: block;
@@ -83,4 +72,14 @@ a{
 }
 a:hover{
   color: #ff9933;
+}
+
+@keyframes fof{
+   from{opacity: 0;}
+   to{opacity: 1;}
+  }
+
+@keyframes cloud{
+  from{width: 0;}
+  to{width: 299px;}
 }
