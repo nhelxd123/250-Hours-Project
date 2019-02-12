@@ -71,3 +71,16 @@ span{
   from{width: 0;}
   to{width: 299px;}
 }
+
+a{
+  margin-top: 300px;
+  display: block;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #666666;
+  text-decoration: none;
+  font-size: 14px;
+}
+a:hover{
+  color: #ff9933;
+}
